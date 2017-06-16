@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule }   from '@angular/http';
+import { Events } from "ionic-angular";
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -27,6 +28,7 @@ import { WeatherComponent } from './weather/weather.component'
   providers: [
     MusicService,
     WeatherService
+    //Events
   ],
   bootstrap: [AppComponent]
 })
