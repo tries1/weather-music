@@ -1,0 +1,13 @@
+<div class="title">
+  <h3>추천음악</h3>
+</div>
+<div class="grid grid-pad">
+  <div *ngFor="let music of musics" class="col-1-4">
+    <div class="module music">
+      <h5>제목 : {{music.title}}</h5>
+      <h5>아티스트 : {{music.artist}}</h5>
+      <h5>장르 : {{music.genre}}</h5>
+      <h5>좋아요 : {{music.like}}</h5>
+    </div>
+  </div>
+</div>

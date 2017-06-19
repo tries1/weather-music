@@ -1,0 +1,32 @@
+.weatherBox{
+  width: 50px;
+  height: 50px;
+}
+
+.showerRain{
+  background-image: url('../../assets/images/09d.png');
+}
+
+.drizzling{
+  background-image: url('../../assets/images/10d.png');
+}
+
+.rain{
+  background-image: url('../../assets/images/10n.png');
+}
+
+.snow{
+  background-image: url('../../assets/images/13d.png');
+}
+
+.mist{
+  background-image: url('../../assets/images/50d.png');
+}
+
+.cloud{
+  background-image: url('../../assets/images/03d.png');
+}
+
+.clear{
+  background-image: url('../../assets/images/01d.png');
+}
